@@ -204,4 +204,4 @@ echo "- 每个星期天带我去海边" >> agent/persona/knowledge.local.md   # 
 
 ## 许可证
 
-[MIT](LICENSE) © 2026 [你的名字]
+[MIT](LICENSE) © 2026 Yujun Lulu Zeng

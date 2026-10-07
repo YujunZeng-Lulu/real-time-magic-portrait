@@ -231,4 +231,4 @@ repository. Third-party SDKs are subject to their own licenses and terms.
 
 ## License
 
-[MIT](LICENSE) © 2026 [Your Name]
+[MIT](LICENSE) © 2026 Yujun Lulu Zeng
