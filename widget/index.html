@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avatar</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <div id="widget" data-state="loading">
+      <header id="bar">
+        <span id="grip" aria-hidden="true"></span>
+        <button id="hide" class="icon" title="Hide (shortcut brings it back)" aria-label="Hide">
+          <svg viewBox="0 0 24 24"><path d="M6 12h12" /></svg>
+        </button>
+        <button id="quit" class="icon" title="Quit" aria-label="Quit">
+          <svg viewBox="0 0 24 24"><path d="M7 7l10 10M17 7L7 17" /></svg>
+        </button>
+      </header>
+
+      <div id="frame">
+        <div id="stage"></div>
+        <div id="ring" aria-hidden="true"></div>
+      </div>
+
+      <footer id="dock">
+        <div id="status" role="status">Loading avatar…</div>
+        <div id="buttons">
+          <button id="mic" class="icon round" title="Mute" aria-label="Mute microphone" hidden>
+            <svg class="on" viewBox="0 0 24 24">
+              <rect x="9" y="3" width="6" height="11" rx="3" />
+              <path d="M5 11a7 7 0 0 0 14 0M12 18v3" />
+            </svg>
+            <svg class="off" viewBox="0 0 24 24">
+              <path d="M15 10V6a3 3 0 0 0-5.7-1.3M9 9v2a3 3 0 0 0 4.6 2.5M5 11a7 7 0 0 0 11.6 5.3M19 11a7 7 0 0 1-.6 2.8M12 18v3M4 4l16 16" />
+            </svg>
+          </button>
+          <button id="call" class="round primary" disabled>Talk</button>
+        </div>
+      </footer>
+    </div>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

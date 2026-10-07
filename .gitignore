@@ -1,0 +1,18 @@
+# ── Secrets: never commit ─────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Your private persona (real names & memories) ──
+agent/persona/*.local.md
+
+# ── Generated / local ─────────────────────────────
+node_modules/
+dist/
+.venv/
+__pycache__/
+*.pyc
+agent.log
+*.log
+voice_preview.mp3
+.DS_Store

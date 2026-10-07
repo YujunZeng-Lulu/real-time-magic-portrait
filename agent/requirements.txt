@@ -1,0 +1,3 @@
+livekit-agents[spatius,silero,elevenlabs,openai,azure]~=1.8
+livekit-plugins-minimax-ai~=1.8
+python-dotenv>=1.0
