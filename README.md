@@ -224,7 +224,7 @@ Also built with [LiveKit Agents](https://github.com/livekit/agents),
 [DeepSeek](https://www.deepseek.com/),
 [Azure AI Speech](https://azure.microsoft.com/products/ai-services/ai-speech),
 [Electron](https://www.electronjs.org/) and
-[Vite](https://vitejs.dev/). Built with the help of Claude(https://claude.ai/).
+[Vite](https://vitejs.dev/). Built with the help of [Claude](https://claude.ai/).
 
 Avatar assets are created in Spatius Studio and are not included in this
 repository. Third-party SDKs are subject to their own licenses and terms.
